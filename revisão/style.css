@@ -1,0 +1,64 @@
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 auto; /* centralizar conteudo*/
+    margin: 0 10% 0 10%; /*distante das bordas*/
+}
+
+.topo {
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.topo p {
+    margin-top: -20px; /* entra em outra div*/
+    margin-left: 5px;
+    border-left: solid #004770 5px;
+    font-style: italic;
+    padding-left: 5px;
+}
+
+.conteudo{
+    padding: 0 30px 0 30px;
+}
+
+.conteudo h3{
+    font-size: 26px;
+    border-left: solid #004770 5px;
+    padding-left: 5px;
+}
+#coluna {
+    width: 50%;
+}
+img {
+    float: right;
+    margin-top: -135px;
+}
+blockquote{
+    font-style: italic;
+    font-size: 18px;
+    text-align: center; /*alinhado ao centro*/
+    margin: 250px 0 50px 0;
+}
+.rodape{
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-bottom: 100px;
+}
+
+ul li{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+li:hover{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a{text-transform: none;}
